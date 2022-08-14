@@ -15,6 +15,31 @@
     --color-header-location: #a9a9a9;
     --shadow-color: rgba(0, 0, 0, 0.486);
     --background-contacts-header: #191919;
+    --background-contact-section: #141414;
     --background-header-nav: rgba(0, 0, 0, 0.4);
     --main-background-color: #000;
+}
+.section__subheading{
+    font-size: 14px;
+    color: var(--section__subheading-color);
+    font-weight: 700;
+    font-family: var(--font-family);
+}
+.section__title{
+    color: var(--main-title-color);
+    font-family: var(--font-header-title);
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 42px;
+}
+.section__description{
+    color: var(--main-title-color);
+    font-family: var(--font-family);
+    font-size: 18px;
+    margin-top: 20px;
+}
+.section__color-text{
+    color: var(--icons-color);
+    font-family: var(--font-header-title);
+    font-weight: bold;
 }
