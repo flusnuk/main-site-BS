@@ -1,0 +1,16 @@
+.neighbours{
+    background-color: var(--background-contact-section);
+    margin: auto;
+}
+.neighbours-text{
+    max-width: 1200px;
+    margin: auto;
+}
+.neighbours__slider img {
+    width: 200px;
+    padding-right: 7px;
+}
+.neighbours__slider {
+    margin: auto;
+    max-width: 1300px;
+}
