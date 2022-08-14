@@ -43,3 +43,6 @@
     font-family: var(--font-header-title);
     font-weight: bold;
 }
+a {
+    text-decoration: none;
+}

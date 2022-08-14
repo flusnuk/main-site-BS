@@ -25,7 +25,7 @@
 .feature__desc{
     color: var(--color-header-location);
     margin-left: 15px;
-    max-width: 284px;
+    max-width: 275px;
     font-size: 16px;
     line-height: 25, 6px;
     font-family: var(--font-family);

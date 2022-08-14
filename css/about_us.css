@@ -1,0 +1,48 @@
+#about_us{
+    background-color: var(--background-contact-section);
+    display: flex;
+    margin: auto;
+}
+.about_us-img{
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+.about_us-img img{
+    max-width: 600px;
+}
+.about_us-text{
+    max-width: 600px;
+}
+.about_us-small-text{
+    color: var(--color-header-location);
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+.about_us-small-text-big{
+    color: var(--color-header-location);
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+.item-icon{
+    width: 20px;
+    margin-right: 10px;
+}
+.about_us-item{
+    display: flex;
+    margin: 10px 10px 10px 0px;
+}
+
+.about_us-btn{
+    background-color: var(--icons-color);
+    padding: 18px 35px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.about_us-btn a{
+    color: var(--main-title-color);
+    font-family: var(--font-family);
+    font-weight: 700;
+}
