@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');  /* font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');/* Source Sans Pro (400,600) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family:'Source Sans Pro', sans-serif;;
+    --font-header-title: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    --main-title-color: white;
+    --section__subheading-color: rgb(209, 185, 151);
+    --icons-color: #d1b997;
+    --color-header-location: #a9a9a9;
+    --shadow-color: rgba(0, 0, 0, 0.486);
+    --background-contacts-header: #191919;
+    --background-header-nav: rgba(0, 0, 0, 0.4);
+    --main-background-color: #000;
+}
