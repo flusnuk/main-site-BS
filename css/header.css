@@ -7,8 +7,6 @@
 .header-darkened {
     background-color: var(--shadow-color);
 }
-
-
 .links-container{
     display: none;
 }
