@@ -33,7 +33,6 @@
     margin: auto;
 }
 .services-slider{
-    padding-left: 100px;
     padding-top: 50px;
 }
 .part-slider {
@@ -97,4 +96,7 @@
     display:inline-flex;
     padding: 10px;
   }
+  .services-slider{
+    padding-left: 100px;
+}
 }
