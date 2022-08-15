@@ -5,6 +5,7 @@
 .neighbours-text{
     max-width: 1200px;
     margin: auto;
+    padding-top: 100px;
 }
 .neighbours__slider img {
     width: 200px;

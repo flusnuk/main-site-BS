@@ -1,6 +1,11 @@
-.section-pricing{
+.pricing{
     background-color: var(--background-contact-section);
+    padding-top: 100px;
+}
+.section-pricing{
+    max-width: 1200px;
     display: flex;
+    margin: auto;
 }
 .pricing__cards{
     display: flex;
@@ -13,8 +18,9 @@
 }
 .pricing__pricing-card{
     background-color: var(--background-contacts-header);
+    margin-right: 25px;
+    min-width: 400px;
     padding-left: 15px;
-    max-width: 450px;
 }
 .card-title{
     color: var(--main-title-color);

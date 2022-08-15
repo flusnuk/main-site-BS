@@ -12,6 +12,24 @@
     margin: 50px 0px 30px 0px;
 }
 .section__work-text{
-    display: flex;
+    max-width: 1200px;
+    display: block;
     margin: auto;
+    grid-template-columns: 1fr;
+}
+.section-work-meet-enjoy__title{
+    max-width: 1200px;
+    margin: auto;
+}
+@media(min-width:850px){
+    .section__work-text{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section__work-description{
+        padding-right: 40px;
+    }
+    .work-meet-enjoy{
+        padding-top: 100px;
+    }
 }

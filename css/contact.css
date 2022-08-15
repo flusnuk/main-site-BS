@@ -75,6 +75,7 @@
     .contact__form{
         display: flex;
         margin: auto;
+        padding-top: 100px;
     }
     .contact-main__section{
         width: 665px;
