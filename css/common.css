@@ -14,6 +14,7 @@
     --icons-color: #d1b997;
     --color-header-location: #a9a9a9;
     --shadow-color: rgba(0, 0, 0, 0.486);
+    --background--pricing: rgb(80, 78, 78);
     --background-contacts-header: #191919;
     --background-contact-section: #141414;
     --background-header-nav: rgba(0, 0, 0, 0.4);
@@ -45,4 +46,7 @@
 }
 a {
     text-decoration: none;
+}
+li{
+    list-style: none;
 }

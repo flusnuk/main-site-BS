@@ -1,6 +1,6 @@
 .why{ 
     background-color: var(--background-contact-section);
-    display: flex;
+    display: block;
 }
 .why-text{
     max-width: 600px;
@@ -35,12 +35,10 @@
 }
 .history-block{
     background-image: url(/img/why/why-background.webp);
-    max-width: 600px;
-    min-width: 400px;
-    height: 600px;
+    max-width: 320px;
+    min-width: 100px;
+    height: 500px;
     text-align: center;
-    padding-left: 50px;
-    /* margin: auto; */
 }
 .history-block__title{
     color: var(--main-title-color);
@@ -49,6 +47,7 @@
     font-weight: bold;
     margin-top: 80px;
     margin-bottom: 100px;
+    padding-left: 35px;
 }
 .history-block__num{
     font-family: var(--font-header-title);
@@ -56,6 +55,7 @@
     font-weight: 700;
     font-weight: bold;
     color: var(--icons-color);
+    padding-left: 35px;
 }
 .history-block__desc{
     font-family: var(--font-header-title);
@@ -63,4 +63,20 @@
     font-weight: 700;
     font-weight: bold;
     color: var(--icons-color);
+    padding-left: 35px;
+}
+@media(min-width:750px){
+    .why{
+        display: flex;
+        margin: auto;
+    }
+    .history-block{
+        padding-left: 50px;
+        min-width: 400px;
+        height: 600px;
+    }
+    .history-block__num, .history-block__title, .history-block__desc{
+        padding: 0;
+    }
+
 }

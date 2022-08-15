@@ -1,0 +1,17 @@
+.work-meet-enjoy{
+    background-color: var(--background-contact-section);
+
+}
+.section__work-description{
+    color: var(--color-header-location);
+    font-family: var(--font-family);
+    font-size: 16px;
+    max-width: 600px;
+}
+.section__work-description p{
+    margin: 50px 0px 30px 0px;
+}
+.section__work-text{
+    display: flex;
+    margin: auto;
+}

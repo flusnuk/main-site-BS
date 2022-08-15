@@ -1,0 +1,10 @@
+.section__services{
+    background-image: url(../img/services/bg_services.jpeg);
+}
+.ser-section__description{
+    color: var(--main-title-color);
+    font-family: var(--font-family);
+    font-size: 18px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}

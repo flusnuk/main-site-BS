@@ -46,3 +46,6 @@
     font-family: var(--font-family);
     font-weight: 700;
 }
+.about_us-signs > ul {
+    padding: 10px 0px 5px 0px;
+}

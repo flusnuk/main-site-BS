@@ -1,0 +1,67 @@
+.section-pricing{
+    background-color: var(--background-contact-section);
+    display: flex;
+}
+.pricing__cards{
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    justify-content: space-between;
+}
+.pricing-text{
+    max-width: 500px;
+}
+.pricing__pricing-card{
+    background-color: var(--background-contacts-header);
+    padding-left: 15px;
+    max-width: 450px;
+}
+.card-title{
+    color: var(--main-title-color);
+    font-family: var(--font-header-title);
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 34px;
+    margin: 20px 0px 20px 0px;
+}
+.price{
+    color: var(--main-title-color);
+    font-family: var(--font-header-title);
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 26px;
+}
+.cards__price-description{
+    color: var(--color-header-location);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.card-li{
+    display: flex;
+    padding: 10px 0px 10px 5px;
+}
+.card-li p{
+    color: var(--color-header-location);
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+
+.pricing__button{
+    background-color: var(--icons-color);
+    padding: 18px 35px;
+    margin: 30px 0px 35px 0px;
+    display: inline-block;
+}
+.pricing__button a{
+    color: var(--main-title-color);
+    font-family: var(--font-family);
+    font-weight: 700;
+    text-decoration: none;
+}
+svg{
+    color: var(--icons-color);
+}
