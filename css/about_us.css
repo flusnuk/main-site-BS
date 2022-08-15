@@ -1,15 +1,14 @@
 #about_us{
     background-color: var(--background-contact-section);
-    display: flex;
     padding-top: 30px;
 }
-.section-about_us{
+ .section-about_us{
     max-width: 1200px;
-    display: flex;
+    display: block;
     margin: auto;
-}
-.about_us-img{
-    height: 50%;
+} 
+.about_us-img img{
+    max-width: 350px;
 }
 .about_us-small-text{
     color: var(--color-header-location);
@@ -44,4 +43,12 @@
 }
 .about_us-signs > ul {
     padding: 10px 0px 5px 0px;
+}
+@media(min-width:870px){
+    .section-about_us{
+        display: flex;
+    }
+    .about_us-img img{
+        max-width: 500px;
+    }
 }
