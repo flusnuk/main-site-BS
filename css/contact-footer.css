@@ -1,6 +1,12 @@
 
 .contact{
     background-color: var(--background-contacts-header);
+    display: flex;
+    padding-top: 100px;
+    margin: auto;
+}
+.contact-title{
+    max-width: 600px;
 }
 .contacts-section__subheading{
     font-size: 14px;
@@ -41,7 +47,12 @@
     font-family: var(--font-family);
     font-size: 16px;
 }
-/* .sn{
+.sn{
     display: flex;
-    justify-content: space-around;
-} */
+    align-items: baseline;
+}
+.sn a {
+    margin: 10px;
+    border: 2px solid var(--icons-color);
+    padding: 6px;
+}
