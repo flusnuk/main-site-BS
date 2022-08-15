@@ -1,6 +1,9 @@
 .awards{
     background-color: var(--background-contacts-header);
 }
+.awards-tabs{
+    padding-bottom: 100px;
+}
 .tab{
     display: block;
 }
