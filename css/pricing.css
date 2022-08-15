@@ -1,28 +1,32 @@
-.pricing{
+.pricing {
     background-color: var(--background-contact-section);
     padding-top: 100px;
 }
-.section-pricing{
+
+.section-pricing {
     max-width: 1200px;
-    display: flex;
     margin: auto;
 }
-.pricing__cards{
-    display: flex;
+
+.pricing__cards {
+    display: block;
     align-items: center;
     max-width: 900px;
     justify-content: space-between;
 }
-.pricing-text{
+
+.pricing-text {
     max-width: 500px;
 }
-.pricing__pricing-card{
+
+.pricing__pricing-card {
     background-color: var(--background-contacts-header);
     margin-right: 25px;
     min-width: 400px;
     padding-left: 15px;
 }
-.card-title{
+
+.card-title {
     color: var(--main-title-color);
     font-family: var(--font-header-title);
     margin-top: 20px;
@@ -30,14 +34,16 @@
     font-size: 34px;
     margin: 20px 0px 20px 0px;
 }
-.price{
+
+.price {
     color: var(--main-title-color);
     font-family: var(--font-header-title);
     margin-top: 20px;
     font-weight: bold;
     font-size: 26px;
 }
-.cards__price-description{
+
+.cards__price-description {
     color: var(--color-header-location);
     font-family: var(--font-family);
     font-size: 16px;
@@ -46,28 +52,41 @@
     margin-bottom: 25px;
 }
 
-.card-li{
+.card-li {
     display: flex;
     padding: 10px 0px 10px 5px;
 }
-.card-li p{
+
+.card-li p {
     color: var(--color-header-location);
     font-family: var(--font-family);
     font-size: 16px;
 }
 
-.pricing__button{
+.pricing__button {
     background-color: var(--icons-color);
     padding: 18px 35px;
     margin: 30px 0px 35px 0px;
     display: inline-block;
 }
-.pricing__button a{
+
+.pricing__button a {
     color: var(--main-title-color);
     font-family: var(--font-family);
     font-weight: 700;
     text-decoration: none;
 }
-svg{
+
+svg {
     color: var(--icons-color);
+}
+
+@media(min-width:1000px) {
+    .pricing__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+    .section-pricing {
+        display: flex;
+    }
 }
