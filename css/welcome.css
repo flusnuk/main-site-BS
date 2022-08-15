@@ -9,7 +9,7 @@
 }
 .feature-container {
     display: block;
-    width: 1200px;
+    max-width: 1200px;
     justify-content: space-between;
     margin-top: 50px;
     margin: auto;

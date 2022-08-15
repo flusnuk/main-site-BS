@@ -1,6 +1,5 @@
 .work-meet-enjoy{
     background-color: var(--background-contact-section);
-
 }
 .section__work-description{
     color: var(--color-header-location);
@@ -16,11 +15,12 @@
     display: block;
     margin: auto;
     grid-template-columns: 1fr;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
 }
 .section-work-meet-enjoy__title{
     max-width: 1200px;
     margin: auto;
+    padding-top: 70px;
 }
 @media(min-width:850px){
     .section__work-text{

@@ -22,8 +22,8 @@
 .pricing__pricing-card {
     background-color: var(--background-contacts-header);
     margin-right: 25px;
-    min-width: 400px;
     padding-left: 15px;
+    padding-bottom: 30px;
 }
 
 .card-title {
@@ -88,5 +88,11 @@ svg {
     }
     .section-pricing {
         display: flex;
+    }
+    .pricing__pricing-card {
+        background-color: var(--background-contacts-header);
+        margin-right: 25px;
+        min-width: 400px;
+        padding-left: 15px;
     }
 }
