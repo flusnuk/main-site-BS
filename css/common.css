@@ -51,3 +51,7 @@ a {
 li{
     list-style: none;
 }
+
+.about_us-text, .welcome, .neighbours, .why, .section-pricing, .work-meet-enjoy, .awards, .contact__slider, .contact-main-section-v2{
+    padding-left: 15px;
+}
